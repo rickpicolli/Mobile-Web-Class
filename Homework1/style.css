@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    line-height: 0.5;
+}
