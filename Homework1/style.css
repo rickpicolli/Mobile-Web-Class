@@ -1,11 +1,27 @@
+.hw1 {
+    background-color: aqua;
+    width: 60px;
+    border-radius: 20px;
+}
+
 .flex {
     display: flex;
 }
 
 img {
     height: 200px;
+    margin: 10px;
 }
 
-p {
-    line-height: 0.5;
+.text {
+    line-height: 17pt;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    margin-top: 100px;
 }
