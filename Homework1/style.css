@@ -11,7 +11,9 @@
 img {
     height: 200px;
     margin: 10px;
+   
 }
+
 
 .text {
     line-height: 17pt;
@@ -29,4 +31,9 @@ ul {
 .hw1b {
     text-align: center;
     padding: 30px;
+}
+
+#jqueryEffect {
+    background-color: blue;
+    color: white;
 }

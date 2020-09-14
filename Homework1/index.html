@@ -8,9 +8,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simple HTML & CSS Page</title>
         <link href="style.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     </head>
+    <script>
+        $(document).ready(function() {
+            $('#jqueryEffect').click(function() {
+                var title = $('h1');
+                var photo = $('img');
+                title.animate({'font-size': '80px', 'color': 'black'}, 1200);
+                title.animate({'font-size': '40px', 'background-color': 'red'}, 1200);
+                title.css({color: 'red'});
+                // photo.animate({'border': '7px solid #08b32d'}, 1000);
+                photo.css({'border': '7px solid #08b32d'}).animate({borderWidth:4}, 1200);
+            });
+        });
+    </script>
     <body>
         <div class="container">
             <h1>Simple HTML & CSS Page</h1>
@@ -41,6 +55,8 @@
                 <li><a href="https://validator.w3.org/">Markup Validation Services</a> - Site used for validation in the HTML5 code</li>
                 <li><a href="https://www.w3schools.com/">w3schools</a> - Website used for guidance and reference for coding</li>
             </ul>
+
+            <input type="button" id="jqueryEffect" value="Start Animation"/>
 
             <div class="hw1b"><a href="../index.html" class="btn btn-outline-primary" role="button" aria-pressed="true">Back to the main page</a></div>
         </div>
