@@ -1,0 +1,84 @@
+.toybg {
+    background-image: url("images/lego.png");
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  .redli {
+    background-color: red;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  .yellowli {
+    background-color: yellow;
+    
+  }
+  .greenli {
+    background-color: green;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  form {
+    border-radius: 5px !;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .contactpg {
+      background-color: lightgreen;
+      padding: 30px;
+      width: 350px;
+      height: 250px;
+      margin-top: 30px;
+  }
+
+  .contactpg img {
+      height: 50px;
+      width: 50px;
+      margin: 10px 10px;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  .container, .controls, .row, .contact-form {
+      margin-top: 30px;
+  }
+
+  .productImg {
+      height: 150px;
+      width: 200px;
+  }
+
+  .panel-body {
+      background-color: lightgrey;
+      margin: auto;
+  }
+
+  @media (max-width: 1037px) {
+    .flex {
+        display: contents;
+    }
+    form {
+        margin: auto;
+        height: 70%;
+        margin-top: 30px;
+
+    }
+
+    .contactpg {
+        width: 70%;
+        margin: auto;
+        height: 250px;
+        margin-top: 30px;
+
+    }
+    .contactflex {
+        margin: auto;
+    }
+  }
