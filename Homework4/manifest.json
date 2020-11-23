@@ -1,0 +1,16 @@
+{
+    "name": "Progressive Web Application",
+    "short_name": "PWA",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "#FFE1C4",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "image/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "400x400"
+        }
+    ]
+}
